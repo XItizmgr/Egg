@@ -2,8 +2,16 @@
 > Not the kind you are thinking..itss a different type of EGG
 EGG is a digital time capsule web application that lets you store memories and lock them away for future date.
 
+<img width="1807" height="1001" alt="Screenshot 2026-09-28 123209" src="https://github.com/user-attachments/assets/36de634d-ffc3-49b2-8580-2c015bf3444a" />
+
+
 Create an egg ,plant a memory inside it , choose when it should hatch and comeback in future to rediscover the memory
 
+<img width="1816" height="963" alt="Screenshot 2026-09-28 123440" src="https://github.com/user-attachments/assets/9b52ba8e-2a15-4e90-9868-1530e2379cc1" />
+<img width="1809" height="1003" alt="Screenshot 2026-09-28 123505" src="https://github.com/user-attachments/assets/85789e6b-0b9a-477a-b8be-d8701997f771" />
+
+
+![alt text](image-2.png)
 
 ## Feature
 - create personal memory eggs 
