@@ -1,10 +1,24 @@
-## steps to connect react/vite to backend
+# MEMORY EGG - backend API
+RESTful api backend for **memory egg**, a digital time capsule where users seal memories or messages into virtual eggs that cannot be opened until a designated unlock date
 
-1. Base URL: Fastapi server runs locally at-
-http://localhost:8000 (or [http://127.0.0.1:8000](http://127.0.0.1:8000))
+## live at
+**Interactive Swagger Docs:** [https://egg-production-289d.up.railway.app/docs](https://egg-production-289d.up.railway.app/docs)
 
-2. api specs - visit http://localhost:8000/docs  to see all available routes, request
+## TECH STACK
+fastAPI
+SQLALchemy 2.0 & SQLite/MySQL
+Pydantic v2
+OAuth pass bearer, JWT, Passlib
+server- Uvicorn 
+Hosted on railway
 
-3. setup frontend/src/services/api.ts -
-idk how to do , see docs or a vid
+## contribution
 
+I made and deployed the full backend of this project .
+list of things I did-
+- complete REST API : made all the endpoints for registration , egg creation , profile setting
+-created time lock system.
+- Database - used sqlalchemy to connect users to their eggs.
+-deployment - deployed the backend live to cloud hosting , Railway 
+
+Made with 💓 by Naitik .
