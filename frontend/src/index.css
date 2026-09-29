@@ -2,18 +2,26 @@
 @import "tailwindcss";
 
 @theme {
-  --bg-color: #f4efe7;
-  --btn-bg-color: #c3a995;
-  --logo-color: #593d3b;
-  --highlight-text-color: #574a42;
-  --text-color: #6f5e53;
-  --main-heading-textBg: #583c3b;
-  --secondary-bg-color: #8a7968;
-  --accent-color: #593d3b;
-  --border-color: #c3a995;
-  --accent-blue: #6883ba;
-  --dark-brown: #2b1e1a;
-  --light-brown: #5c4a42;
+  --accent-blue: #e87930;
+  --font-poppins: "Poppins", sans-serif;
+  --bg-color: #0a0909;
+  --secondary-bg-color: #211b1d;
+  --card-bg-color: #2a2224;
+  --text-color: #c8bdb3;
+  --highlight-text-color: #e4d7c8;
+  --main-heading-textBg: #e7d8c5;
+  --logo-color: #d97832;
+  --accent-color: #e3ccb7;
+  --blood-red: #7a252b;
+  --dark-red: #4a171c;
+  --ghost-purple: #65506f;
+  --dead-green: #596044;
+  --border-color: #403437;
+  --btn-bg-color: #6b3028;
+  --btn-hover-color: #8a3d2e;
+  --dark-brown: #0e0b0d;
+  --light-brown: #594a45;
+
   --font-poppins: "Poppins", sans-serif;
 }
 
@@ -27,16 +35,3 @@
     background-color: var(--bg-color);
   }
 }
-/* .egg-float {
-  animation: eggFloat 1s ease-in-out infinite;
-}
-@keyframes eggFloat {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(-8px);
-  }
-} */

@@ -9,11 +9,11 @@ interface buttonProps {
 function Button({ children, variant = "primary", onClick, disabled = false }: buttonProps) {
   let buttonStyle = "";
   if (variant === "primary") {
-    buttonStyle = "bg-[#6882bb] text-black hover:bg-[#5d4a43] hover:text-white cursor-pointer";
+    buttonStyle = "bg-(--btn-bg-color) text-black hover:bg-(--btn-hover-color) hover:text-white cursor-pointer";
   }
 
   if (variant === "secondary") {
-    buttonStyle = "bg-[#5d4a43] text-white hover:bg-[#6882bb] hover:text-black cursor-pointer";
+    buttonStyle = "bg-(--btn-bg-color) text-white hover:bg-(--btn-hover-color) hover:text-black cursor-pointer";
   }
 
   if (variant === "dark") {

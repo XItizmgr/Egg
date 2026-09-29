@@ -35,8 +35,8 @@ interface StepCardProps {
 
 export function StepCard({ step, title, description }: StepCardProps) {
   return (
-    <motion.article variants={CardVariant}  whileHover={{ y: -6 }} className="group rounded-2xl border border-(--accent-color)/10 bg-white/50 p-7 hover:border-(--accent-blue)/40">
-      <span className="font-serif text-6xl font-bold text-[#6882bb]/40">{step}</span>
+    <motion.article variants={CardVariant}  whileHover={{ y: -6 }} className="group rounded-2xl border border-(--accent-color)/10 bg-(--accent-color)/50 p-7 hover:border-(--accent-blue)/40">
+      <span className="font-serif text-6xl font-bold text-(--accent-blue)">{step}</span>
 
       <div className="mt-10">
         <h3 className="mt-2 font-serif text-2xl font-bold">{title}</h3>
@@ -48,10 +48,10 @@ export function StepCard({ step, title, description }: StepCardProps) {
 }
 export function UseCard({ step, title, description }: StepCardProps) {
   return (
-    <motion.article variants={CardVariant} whileHover={{ y: -6 }} className="group rounded-2xl border border-(--accent-color)/10 bg-white/50 p-7 hover:border-(--accent-blue)/40">
-      <span className="font-serif text-6xl font-bold text-[#6882bb]/40">{step}</span>
+    <motion.article variants={CardVariant} whileHover={{ y: -6 }} className="group rounded-2xl border border-(--accent-color)/10 bg-(--accent-color)/50 p-7 hover:border-(--accent-blue)/40">
+      <span className="font-serif text-6xl font-bold text-(--accent-blue)">{step}</span>
       <div className="mt-10">
-        <h3 className="mt-2 font-serif text-2xl font-bold">{title}</h3>
+        <h3 className="mt-2 font-serif text-2xl font-bold text-(--accent-color)">{title}</h3>
         <p className="mt-3 leading-7 text-(--accent-color)/75">{description}</p>
       </div>
     </motion.article>

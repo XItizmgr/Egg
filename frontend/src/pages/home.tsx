@@ -15,7 +15,7 @@ export function Home() {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-(--accent-blue)"
           >
-            Your memories, planted in time
+            Your memories, Buried in time
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
@@ -24,7 +24,7 @@ export function Home() {
             className="font-serif text-4xl font-bold leading-tight text-(--accent-color) md:text-6xl"
           >
             Welcome to your
-            <span className="block text-(--accent-blue)">Egg Farm.</span>
+            <span className="block text-(--accent-blue)"> Cursed Farm.</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -37,7 +37,7 @@ export function Home() {
           <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.7, duration: 0.6 }} className="mt-8 flex items-center gap-4">
             <a href="#section-3">
             <Button variant="secondary">Learn more</Button></a>
-            <span className="text-sm text-[#5d4a43]/60">Plant a memory today.</span>
+            <span className="text-sm text-(--text-color)">Send a Buried moment.</span>
           </motion.div>
         </div>
         <div className="flex justify-center md:justify-end">
@@ -58,11 +58,11 @@ export function Home() {
           <div className="mx-auto max-w-2xl text-center">
             <p className="text-md font-semibold uppercase tracking-[0.2em] text-(--accent-blue)">How egg works</p>
             <h2 className="mt-3 font-serif text-3xl font-bold leading-tight md:text-5xl">
-              Plant a memory
+              Buried a memory
               <br />
               let time do the rest
             </h2>
-            <p className="mt-5 leading-tight">Some memory are meant to be for future experienced . Egg gives them a place to wait </p>
+            <p className="mt-5 leading-tight">Some memory are meant to be Share . Egg gives them a Perfect solution  </p>
           </div>
           <motion.div variants={ContainerVariant} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.15 }} className="mt-16 grid gap-10 md:grid-cols-3">
             <StepCard step="1" title="Plant a memory" description="Write a message, add your favorite photos, or save a moment you want to remember later" />

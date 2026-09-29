@@ -5,8 +5,8 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 
 const getNavLinkClass = ({ isActive }: NavLinkRenderProps): string =>
-  `relative inline-block py-1 transition-colors text-md before:content-[''] before:absolute before:bottom-0 before:left-1/2 before:h-[2px] before:w-full before:bg-black before:-translate-x-1/2 before:scale-x-0 before:transition-transform before:duration-300 before:ease-out hover:before:scale-x-100 ${
-    isActive ? "font-semibold text-[var(--hightlight-text-color)] " : "text-[var(--text-color)]"
+  `relative inline-block py-1 transition-colors text-md before:content-[''] before:absolute before:bottom-0 before:left-1/2 before:h-[2px] before:w-full before:bg-(--accent-blue) before:-translate-x-1/2 before:scale-x-0 before:transition-transform before:duration-300 before:ease-out hover:before:scale-x-100 ${
+    isActive ? "font-semibold text-[var(--accent-blue)] " : "text-[var(--text-color)]"
   }`;
 
 export function NavBar() {
@@ -35,7 +35,7 @@ export function NavBar() {
       </div>
       <div className="hidden md:flex items-center justify-center gap-5">
         <NavLink to="/register">
-          <Button variant="secondary">Start To Plant</Button>
+          <Button variant="secondary">Send your thought </Button>
         </NavLink>
       </div>
       <div className="md:hidden flex items-center">
