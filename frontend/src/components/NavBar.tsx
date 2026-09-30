@@ -27,6 +27,9 @@ export function NavBar() {
           Home
         </NavLink>
         <NavLink to="/farm" className={getNavLinkClass}>
+          Cursed Msg
+        </NavLink>
+        <NavLink to="/farm" className={getNavLinkClass}>
           My Farm
         </NavLink>
         <NavLink to="/account" className={getNavLinkClass}>
