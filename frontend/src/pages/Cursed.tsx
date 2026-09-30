@@ -74,7 +74,7 @@ export default function Cursed() {
 
         {sent && (
           <div className=" mt-6 rounded-lg border  border-(--dead-green)  bg-(--secondary-bg-color) px-5   py-4  text-sm  text-(--highlight-text-color) ">
-            It has been sent.
+            It has been sent hehehe.
             <span className="block mt-1 text-(--text-color)">Something is waiting in their inbox.</span>
           </div>
         )}
