@@ -288,7 +288,7 @@ export default async function handler(req: any, res: any) {
         background: #f8f8f8;
         font-family: Georgia, 'Times New Roman', serif;">
 
-          <div style=" max-width: 640px;  min-height: 960px;  margin: 0 auto;  background-image: url(https://egg-snowy.vercel.app/side-wall.jpg); background-size: 100% 100%; background-position: center;  background-repeat: no-repeat; padding: 150px 90px 130px 90px; box-sizing: border-box; text-align: center; ">
+          <div style=" max-width: 640px;  min-height: 960px;  margin: 0 auto;  background-image: url(https://egg-orpin.vercel.app/side-wall.jpg); background-size: 100% 100%; background-position: center;  background-repeat: no-repeat; padding: 150px 90px 130px 90px; box-sizing: border-box; text-align: center; ">
 
             <h1 style=" margin: 0 0 40px 0; font-family: Georgia, serif; font-size: 34px; letter-spacing: 3px; color: #24160d;">
               YOU HAVE A MESSAGE
