@@ -1,26 +1,30 @@
-# EGG
+# EGG 
 > Not the kind you are thinking..itss a different type of EGG
-EGG is a digital time capsule web application that lets you store memories and lock them away for future date.
+EGG is a Halloween special annomoly email sender lol . and an memory holder for your future time.  
 
-<img width="1807" height="1001" alt="Screenshot 2026-09-28 123209" src="https://github.com/user-attachments/assets/36de634d-ffc3-49b2-8580-2c015bf3444a" />
+![alt text](image.png)
 
+Send you friend some scary conv and scared him/her
 
-Create an egg ,plant a memory inside it , choose when it should hatch and comeback in future to rediscover the memory
+![alt text](image-1.png)
 
-<img width="1816" height="963" alt="Screenshot 2026-09-28 123440" src="https://github.com/user-attachments/assets/9b52ba8e-2a15-4e90-9868-1530e2379cc1" />
-<img width="1809" height="1003" alt="Screenshot 2026-09-28 123505" src="https://github.com/user-attachments/assets/85789e6b-0b9a-477a-b8be-d8701997f771" />
-
-
-![alt text](image-2.png)
 
 ## Feature
-- create personal memory eggs 
-- Lock some unforgetfull memory untill choosen date
+- being able to send scary conv text to your friend 
+some more feature
+
+![alt text](image-2.png)
+(IDK why the background that i set didnot came will try to fix this now)
+
+![alt text](image-3.png) (now it look ahh)
+
+- create personal memory eggs for future hallowen wish
+- Lock some unforgetfull memory untill choosen date to send ypour friend that scary conv again 
 - Storing text-based memories
 - smooth page transitions and animations 
 
 # why EGG was created and where did we get the inspiration ?
- The EGG is created because to help user not forget there loved memory and help them to remember there memory , moment in the future..
+ The EGG is created because to help user not forget there loved memory , scary and help them to remember there memory hehe and help them to not forget their scary moment in their life so they can tell their kids.
  we got the inspiration to make EGG from a cartoon called doremon where in that ep we saw a time capsule used to hold memory it was physical capsule and from there we got the idea to create this wonderfull digital time capsule idea called EGG
 
 ## Why choose name EGG ?
@@ -45,6 +49,8 @@ Well it doesn't have any special reason it just egg looked like the closest thin
 # Devlopment tools 
 - Git 
 - Github
+# Api
+- Resend Api key
  
 # To run EGG
 - Clone the repository using 
@@ -71,3 +77,5 @@ Some of the future plan for egg
 
 # Ai Usages 
 - The svg for egg  and its shadow are ai generated (we will remove it and add 3d egg soon )
+- the scary text idea is mine but the conv writing is direvtly copy paste from ai
+- Website desing is pretty simple (cuz i don't think much and just used some ai slop website design)
