@@ -78,4 +78,3 @@ Some of the future plan for egg
 # Ai Usages 
 - The svg for egg  and its shadow are ai generated (we will remove it and add 3d egg soon )
 - the scary text idea is mine but the conv writing is direvtly copy paste from ai
-- Website desing is pretty simple (cuz i don't think much and just used some ai slop website design)
