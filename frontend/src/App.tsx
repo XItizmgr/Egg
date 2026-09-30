@@ -9,6 +9,7 @@ import { Register } from "./pages/Register";
 import { EggDetails } from "./pages/EggDetails";
 import { AnimatePresence } from "motion/react";
 import { PageTransition } from "./components/PageTransition";
+import Cursed from "./pages/Cursed";
 function App() {
   const location = useLocation()
   return (
@@ -20,6 +21,7 @@ function App() {
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<PageTransition><Home /></PageTransition>}  />
           <Route path="/farm" element={<PageTransition><Farm /></PageTransition>}/>
+          <Route path="/cursed" element={<PageTransition><Cursed /></PageTransition>}/>
           <Route path="/account" element={<PageTransition><Account /></PageTransition>} />
           <Route path="/login" element={<PageTransition><Login /></PageTransition>} />
           <Route path="/register" element={<PageTransition><Register /></PageTransition>} />

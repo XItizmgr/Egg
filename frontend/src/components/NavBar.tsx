@@ -26,7 +26,7 @@ export function NavBar() {
         <NavLink to="/" className={getNavLinkClass}>
           Home
         </NavLink>
-        <NavLink to="/farm" className={getNavLinkClass}>
+        <NavLink to="/cursed" className={getNavLinkClass}>
           Cursed Msg
         </NavLink>
         <NavLink to="/farm" className={getNavLinkClass}>
@@ -37,8 +37,8 @@ export function NavBar() {
         </NavLink>
       </div>
       <div className="hidden md:flex items-center justify-center gap-5">
-        <NavLink to="/register">
-          <Button variant="secondary">Send your thought </Button>
+        <NavLink to="/cursed">
+          <Button variant="secondary">Cursed submit </Button>
         </NavLink>
       </div>
       <div className="md:hidden flex items-center">
