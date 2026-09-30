@@ -55,7 +55,7 @@ export function Login() {
 
   return (
     <main className="font-poppins min-h-screen min-w-screen justify-center flex p-4">
-      <div className="w-full h-fit max-w-md border-(--light-brown)/80 border p-8 rounded-lg gap-3 flex flex-col">
+      <div className="w-full h-fit max-w-md border-(--light-brown)/80 border p-8 rounded-lg gap-3 flex flex-col bg-(--accent-blue)">
         <h2 className="text-[25px] font-semibold text-(--dark-brown)">Login to your account</h2>
         {error && <div className="w-full p-3 bg-red-100 text-red-600 border border-red-300 rounded-lg text-[15px]">{error}</div>}
         <input
@@ -63,7 +63,7 @@ export function Login() {
           placeholder="username"
           value={username}
           onChange={(e) => setusername(e.target.value)}
-          className="w-full text-[17.5px] px-4 py-3 text-(--dark-brown) bg-(--bg-color) rounded-lg border border-(--light-brown)/80 focus:border-(--dark-brown) transition-all outline-none"
+          className="w-full text-[17.5px] px-4 py-3 text-(--dark-brown) bg-(--accent-color) rounded-lg border border-(--light-brown)/80 focus:border-(--dark-brown) transition-all outline-none"
         />
         <div className="flex gap-2 items-center">
           <input
@@ -71,7 +71,7 @@ export function Login() {
             placeholder="password"
             value={password}
             onChange={(e) => setpassword(e.target.value)}
-            className="w-full text-[17.5px] px-4 py-3 text-(--dark-brown) bg-(--bg-color) rounded-lg border border-(--light-brown)/80 focus:border-(--dark-brown) transition-all outline-none"
+            className="w-full text-[17.5px] px-4 py-3 text-(--dark-brown) bg-(--accent-color) rounded-lg border border-(--light-brown)/80 focus:border-(--dark-brown) transition-all outline-none"
           />
           <button
             className="cursor-pointer p-1 transition-all flex items-center justify-center"
@@ -88,11 +88,11 @@ export function Login() {
             disabled={isLoading}
             type="button"
             onClick={() => handleLogin()}
-            className="w-full h-full disabled:opacity-70 disabled:cursor-not-allowed disabled:active:scale-100 text-[20px] font-medium bg-(--accent-blue) py-3 rounded-lg transition-all cursor-pointer active:scale-95"
+            className="w-full h-full disabled:opacity-70 disabled:cursor-not-allowed disabled:active:scale-100 text-[20px] font-medium bg-(--btn-bg-color) text-white py-3 rounded-lg transition-all cursor-pointer active:scale-95"
           >
             {isLoading ? <img src={spannericon} className="animate-spin h-7 mx-auto" /> : <span>Login</span>}
           </button>
-          <a type="button" href={"/register"} className="w-full text-center text-[20px] text-(--dark-brown) py-3  transition-all cursor-pointer">
+          <a type="button" href={"/register"} className="w-full text-center text-[20px] text-(--dark-brown) border border-(--dark-red) py-3 rounded-2xl  border-dotted transition-all cursor-pointer">
             Register
           </a>
         </div>

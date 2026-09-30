@@ -32,7 +32,8 @@ export function Home() {
             transition={{ delay: 0.55, duration: 0.7 }}
             className="mt-6 max-w-lg text-base leading-7 text-(--accent-color)/75 md:text-lg"
           >
-            Egg is a digital memory holder where you can save your favorite moments, stories, images, and videos for your future self or someone you love.
+            Egg is a digital memory holder where you can save your favorite moments for your future self or someone you love.
+            For hallowen special u can send anonymous email to your friend.hehe
           </motion.p>
           <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.7, duration: 0.6 }} className="mt-8 flex items-center gap-4">
             <a href="#section-3">
@@ -66,8 +67,8 @@ export function Home() {
           </div>
           <motion.div variants={ContainerVariant} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.15 }} className="mt-16 grid gap-10 md:grid-cols-3">
             <StepCard step="1" title="Plant a memory" description="Write a message, add your favorite photos, or save a moment you want to remember later" />
-            <StepCard step="2" title="Seal your egg" description="Choose when you want your memory to return. Once planted, your Egg stays sealed." />
-            <StepCard step="3" title="Rediscover it" description="When the time comes, your Egg opens and your memory returns to you." />
+            <StepCard step="2" title="Seal your egg and rediscover" description="Choose when you want your memory to return. Once planted, your Egg stays sealed  and after certain time rediscover it" />
+            <StepCard step="3" title="Anonymous Email" description="Send your friend ,love one or anyone annonymous email.<scare themmm>" />
           </motion.div>
         </div>
       </section>
