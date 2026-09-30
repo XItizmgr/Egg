@@ -2,7 +2,7 @@ import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 const convs = [
-`
+  `
 Anomoly: What are you eating?
 
 You: whoo whoo are u?
@@ -258,25 +258,20 @@ Anomaly: It makes it very easy to see you from here.
 `,
 ];
 
-export default async function handler(req: Request) {
+export default async function handler(req: any, res: any) {
   if (req.method !== "POST") {
-    return new Response("Method not allowed", {
-      status: 405,
+    return res.status(405).json({
+      error: "Method not allowed",
     });
   }
 
   try {
-    const { email } = await req.json();
+    const { email } = req.body;
 
     if (!email) {
-      return Response.json(
-        {
-          error: "Email is required",
-        },
-        {
-          status: 400,
-        },
-      );
+      return res.status(400).json({
+        error: "Email is required",
+      });
     }
 
     const message = convs[Math.floor(Math.random() * convs.length)];
@@ -328,30 +323,20 @@ export default async function handler(req: Request) {
     if (error) {
       console.error("Resend error:", error);
 
-      return Response.json(
-        {
-          error: "Failed to send email",
-        },
-        {
-          status: 500,
-        },
-      );
+      return res.status(500).json({
+        error: "Failed to send email",
+      });
     }
 
-    return Response.json({
+    return res.status(200).json({
       success: true,
       data,
     });
   } catch (error) {
     console.error("Server error:", error);
 
-    return Response.json(
-      {
-        error: "Something went wrong",
-      },
-      {
-        status: 500,
-      },
-    );
+    return res.status(500).json({
+      error: "Something went wrong",
+    });
   }
 }
