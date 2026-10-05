@@ -277,7 +277,7 @@ export default async function handler(req: any, res: any) {
     const message = convs[Math.floor(Math.random() * convs.length)];
 
     const { data, error } = await resend.emails.send({
-      from: "Egg Halloween <onboarding@resend.dev>",
+      from: "Halloween Egg <spooky@halloweenegg.xyz>",
 
       to: email,
 
